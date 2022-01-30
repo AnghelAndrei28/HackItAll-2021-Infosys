@@ -98,8 +98,8 @@ class _TrackState extends State<Track> {
                               .request()
                               .isGranted) {}
                           await BackgroundLocation.setAndroidNotification(
-                            title: 'Robica e prost',
-                            message: 'Serios',
+                            title: 'You are currently tracking your steps',
+                            message: 'Keep up the good work',
                             icon: '@mipmap/ic_launcher',
                           );
                           //await BackgroundLocation.setAndroidConfiguration(1000);
